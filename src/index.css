@@ -1,0 +1,13 @@
+/* Global reset - removes browser default margin/padding/box model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure body fills full viewport height */
+body {
+  min-height: 100vh;
+}
